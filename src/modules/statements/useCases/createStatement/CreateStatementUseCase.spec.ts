@@ -3,7 +3,6 @@ import { CreateUserUseCase } from "../../../users/useCases/createUser/CreateUser
 import { InMemoryStatementsRepository } from "../../repositories/in-memory/InMemoryStatementsRepository";
 import { CreateStatementUseCase } from "./CreateStatementUseCase";
 import { OperationType } from "../../entities/Statement"
-import { StringDecoder } from "node:string_decoder";
 import { CreateStatementError } from "./CreateStatementError";
 
 let inMemoryUsersRepository: InMemoryUsersRepository;

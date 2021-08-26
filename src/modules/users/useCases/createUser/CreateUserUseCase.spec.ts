@@ -1,7 +1,6 @@
 import { InMemoryUsersRepository } from "../../repositories/in-memory/InMemoryUsersRepository";
 import { CreateUserError } from "./CreateUserError";
 import { CreateUserUseCase } from "./CreateUserUseCase"
-import { ICreateUserDTO } from "./ICreateUserDTO";
 
 let inMemoryUserRepository: InMemoryUsersRepository
 let createUserUseCase: CreateUserUseCase;
